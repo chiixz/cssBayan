@@ -1,0 +1,52 @@
+body {
+    font-size: 0.625rem;
+}
+.accordion {
+    max-width: 77.5rem;
+    margin:auto;
+    background-color: burlywood;
+}
+h1 {
+    font-size: 2.8rem;
+    text-align: center;
+}
+.item__content{
+    text-align: center;
+    display: block;
+    font-size: 2.2rem;
+    border-top: 1px solid gainsboro;
+    cursor: pointer;
+    padding-top:1rem;
+    
+}
+.item__content ::-webkit-details-marker {
+    display:none;
+}
+@media (min-width: 20rem) and (max-width: 32rem) {
+    .item__content{
+        font-size: 0.8rem;
+        cursor: default;  
+    }
+    h1 {
+        font-size: 1.3rem;}
+}
+@media (min-width: 32.5rem) and (max-width: 51.25rem) {
+    .item__content{
+        font-size: 1.5rem;
+        cursor: default;   
+    }
+    h1 {
+        font-size: 1.8rem;
+}
+}
+@media (min-width: 51.5rem) and (max-width: 77.5rem) {
+    .accordion {
+        width:100%;
+    }  
+    .item__content{
+        font-size: 1.8rem;   
+    }
+    h1 {
+        font-size: 2.1rem;
+}
+}
