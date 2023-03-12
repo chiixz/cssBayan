@@ -5,13 +5,15 @@ body {
     max-width: 77.5rem;
     margin:auto;
     background-color: burlywood;
-}
+    }
 body :hover {
     color:brown
 }
 h1 {
     font-size: 2.8rem;
     text-align: center;
+}
+.item {
 }
 .item__content{
     text-align: center;
@@ -20,15 +22,15 @@ h1 {
     border-top: 1px solid gainsboro;
     cursor: pointer;
     padding-top:1rem;
-    
 }
 .item__content ::-webkit-details-marker {
     display:none;
 }
 .img{ 
-    max-width: 100%;
+    max-width: 12.5rem;
     display: block;
     margin: auto;
+
     
 }
 @media (min-width: 20rem) and (max-width: 32rem) {
